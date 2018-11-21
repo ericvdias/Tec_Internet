@@ -1,0 +1,48 @@
+Servidor de Aplicação;
+
+servidor que rodam app disponib na web;
+software que roda no servidor físico.
+
+servidor http: mapeia URL em um arquivo fisico dentro da maquina. Disponibiliza uma pasta em protocolo http, documento html.
+servidor aplicação processa as informações; suporte a aplicação web. Disponibiliza um ambiente para execução.
+
+Tolerancia a falhas.
+Fornece estrutura para impedir erros que derrubem o serviço.
+Atomicidade. começar e terminar uma ação antes de começar outra.
+
+
+
+Introdução ao PHP;
+
+envio para o servidor:
+method: POST, GET, REQUEST - separam o tipo das requisições
+action: processo.php
+
+
+$_POST
+$_REQUEST
+$_GET
+
+cookies sempre no navegador,
+setcookie ("nome","valor","$validade")
+$_COOKIE
+
+session_start();
+unset($_SESSION["nome"])
+
+session_destroy();
+
+include();
+inclui e executa os comandos
+incluide("funcoes.php"); continua a execução do programa mesmo com erro;
+required_onde(); não deixai incluir dois arquivos iguais;
+
+required(); para a aplicação em caso de erro;
+
+CONEXAO BD:
+
+mysqli_conect("host", "usuario", "senha")
+mysqli_select_db();
+mysql_query()
+mysqli_fetch_array;
+mysqli_close();
