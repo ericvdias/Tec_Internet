@@ -46,3 +46,23 @@ mysqli_select_db();
 mysql_query()
 mysqli_fetch_array;
 mysqli_close();
+
+
+---------------------------------------
+
+Prog II
+
+Encapsulamento
+
+Polimorfismo
+ Sobrecarga
+ Sobrescrita
+
+Herança
+
+DAO
+
+Algoritimo
+
+Gererenc Layout
+ 
